@@ -9,6 +9,7 @@ dropcap:			true
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:        	  /Notepad
 gems: [jekyll-paginate]
+future: true
 # Owner/author information
 owner:
   name:           Hossain Mohd Faysal
