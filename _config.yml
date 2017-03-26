@@ -12,11 +12,11 @@ gems: [jekyll-paginate]
 future: true
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
+  name:           Hungry Minds
   avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  email:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
