@@ -27,6 +27,12 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                         {{ post.title }}
                     </a>
                 </h3>
+                {% if post.author %}
+                
+                <h3 class="notepad-post-author">
+                        by {{ post.author }}
+                </h3>
+                {% endif %}
             </header>
             <section class="notepad-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:40 }}</p>

@@ -16,7 +16,14 @@ owner:
   avatar:         hmfaysal.jpg
   email:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:
+  description:    Prototyping the future
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        hmfaysal
+  facebook:       hmfaysal
+  github:         hmfaysal      
+  instagram:      hmfaysal
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -127,7 +134,12 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
-
+      - name: "author"
+        field:
+          label: "author"
+          element: "text"
+          value: "Hungry Minds!"
+          placeholder: "Enter Post Headline"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
