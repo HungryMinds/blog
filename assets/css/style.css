@@ -162,8 +162,11 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: black;
-  background-size: cover; }
+  background-color: red;
+  background-image: url('https://cdn-images-1.medium.com/max/2000/1*68OZ5D29IN4lXU-0FtXpjg.png') }
+.notepad-blog-description{
+  text-shadow: 5px 5px 0px rgba(229, 94, 125, 1);
+}
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
