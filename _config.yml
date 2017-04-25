@@ -1,5 +1,5 @@
 title:            HungryMinds
-description:      "Prototyping the future"
+description:      "Prototipando el futuro"
 logo:             hungry_minds-logo.png
 disqus_shortname: hmfaysal
 share:            false
@@ -12,16 +12,16 @@ gems: [jekyll-paginate]
 future: true
 # Owner/author information
 owner:
-  name:           Hungry Minds
+  name:           HungryMinds
   avatar:         hmfaysal.jpg
   email:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Prototyping the future
+  description:    Prototipando el futuro
   # Social networking links used in footer. Update and remove as you like.
   # twitter:        hmfaysal
-  # facebook:       hmfaysal
+  facebook:       HungryMinds.io
   github:         HungryMinds
-  # instagram:      hmfaysal
+  instagram:      HungryMinds.io
   # For Google Authorship https://plus.google.com/authorship
   # google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -34,11 +34,11 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Inicio
     url: /
     external: false
     icon: home
-  - title: Categories
+  - title: Categorias
     url: /categories
   # - title: About
   #   url: /about
@@ -89,7 +89,7 @@ prose:
           element: "text"
           label: "Has this page been modified?"
           placeholder: "YYYY-MM-DD"
-      - name: "categories"
+      - name: "Categorias"
         field:
           element: "multiselect"
           label: "Add categories"

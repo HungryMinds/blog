@@ -15,7 +15,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                         {{ post.date | date: "%d" }}
                     </span>
                     <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
+                        {{ post.date | date: "%m/%Y" }}
                     </span>
                 </time>
             </span>
@@ -49,20 +49,20 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
     <nav class="pagination" role="navigation">
     {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
-	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Más nuevo</a>
 	    {% else %}
-	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Más nuevo</a>
 	    {% endif %}
 	{% else %}
-    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
+    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Más nuevo</span>
     {% endif %}
 
     
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page-number">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
     	{% if paginator.next_page %} 
-        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
+        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Más Viejo<i class="fa fa-chevron-right"></i></a>
     	{% else %}
-    	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
+    	<span class="older-posts faded">Más Viejo <i class="fa fa-chevron-right"></i></span>
     	{% endif %}
 	</nav>
 {% else %}
@@ -75,7 +75,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                         {{ post.date | date: "%d" }}
                     </span>
                     <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
+                        {{ post.date | date: "%m/%Y" }}
                     </span>
                 </time>
             </span>
